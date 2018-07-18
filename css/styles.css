@@ -1,0 +1,73 @@
+body {
+  padding: 0;
+  margin: 0;
+  font: 18px/1.2 'Gloria Hallelujah', cursive;
+}
+
+.container {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.main-image {
+  max-width: 100%;
+  margin: 1%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.featured-work {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+h1 {
+  letter-spacing: 0.2em;
+}
+
+.intro {
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 5%;
+  letter-spacing: 0.2em;
+}
+
+h3 {
+  font-size: 1.0em;
+  text-align: right;
+}
+
+p {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (min-width: 150px) and (max-width: 450px) {
+  .main-image {
+    width: 100%
+  }
+}
+
+@media screen and (min-width: 550px) {
+  body {
+    margin: 25px 75px 25px 75px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  body {
+    margin: 50px 150px 50px 150px;
+  }
+}
